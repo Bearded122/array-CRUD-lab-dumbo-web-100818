@@ -13,31 +13,31 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  names.unshift(element)
+  array.unshift(element)
 
 end
 
 def remove_element_from_end_of_array(array)
-  names.pop(element)
+  array.pop(element)
 
 end
 
 def remove_element_from_start_of_array(array)
-  names.shift(element)
+  array.shift(element)
 
 end
 
 def retrieve_element_from_index(array, index_number)
-  names(2)
+  array(2)
 
 end
 
 def retrieve_first_element_from_array(array)
-  names(0)
+  array(0)
 
 end
 
 def retrieve_last_element_from_array(array)
-  names(4)
+  array(4)
 
 end
