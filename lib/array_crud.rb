@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  num = [one, two, three, four]
+  names= [Jack, Harley, Henri, John]
 
 end
 
