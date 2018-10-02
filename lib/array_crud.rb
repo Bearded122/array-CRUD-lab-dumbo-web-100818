@@ -8,22 +8,22 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  names.push("James")
+  names << element
 
 end
 
 def add_element_to_start_of_array(array, element)
-  names.unshift("Joker")
+  names.unshift(element)
 
 end
 
 def remove_element_from_end_of_array(array)
-  names.pop("James")
+  names.pop(element)
 
 end
 
 def remove_element_from_start_of_array(array)
-  names.shift("Joker")
+  names.shift(element)
 
 end
 
