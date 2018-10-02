@@ -38,6 +38,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array(4)
+  n = array.count
+  array[n-1]
 
 end
